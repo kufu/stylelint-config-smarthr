@@ -1,0 +1,44 @@
+{
+  "name": "stylelint-config-smarthr",
+  "version": "0.1.0",
+  "description": "A sharable stylelint config for SmartHR",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:kufu/stylelint-config-smarthr.git"
+  },
+  "homepage": "https://github.com/kufu/stylelint-config-smarthr#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "bugs": {
+    "url": "https://github.com/kufu/stylelint-config-smarthr/issues"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:update-snapshot": "jest --updateSnapshot"
+  },
+  "author": "SmartHR",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/styled-components": "^5.0.1",
+    "jest": "^25.2.4",
+    "styled-components": "^5.0.1",
+    "stylelint": "^13.2.1",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
+  }
+}
