@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "A sharable stylelint config for SmartHR",
   "main": "index.js",
+  "files": [
+    "/index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+git@github.com:kufu/stylelint-config-smarthr.git"
