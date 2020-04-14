@@ -10,7 +10,7 @@ const InvalidStyles = styled.ul`
   color: #ffffff;
   background-color: #FFF;
   /* some comments */
-  opacity: 0.5;
+  opacity: .5;
   &:after {
     content: '';
   }
@@ -37,7 +37,7 @@ const ValidStyles = styled.ul`
   background-color: #fff;
 
   /* some comments */
-  opacity: .5;
+  opacity: 0.5;
   &::after {
     content: '';
   }

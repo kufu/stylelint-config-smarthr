@@ -66,7 +66,7 @@ Object {
     Object {
       "rule": "number-leading-zero",
       "severity": "error",
-      "text": "Unexpected leading zero (number-leading-zero)",
+      "text": "Expected a leading zero (number-leading-zero)",
     },
     Object {
       "rule": "property-case",
