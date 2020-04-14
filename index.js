@@ -28,7 +28,7 @@ module.exports = {
     'string-quotes': 'single',
     'font-family-name-quotes': 'always-where-required',
     'value-list-comma-space-after': 'always',
-    'number-leading-zero': 'never',
+    'number-leading-zero': 'always',
     'color-hex-length': 'short',
     'color-hex-case': 'lower',
     'no-descending-specificity': null,
