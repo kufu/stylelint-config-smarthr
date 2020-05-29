@@ -511,7 +511,7 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^25.1.4":
+"@types/jest@25.1.4":
   version "25.1.4"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-25.1.4.tgz#9e9f1e59dda86d3fd56afce71d1ea1b331f6f760"
   integrity sha512-QDDY2uNAhCV7TMCITrxz+MRk1EizcsevzfeS6LykIlq2V1E5oO4wXG8V2ZEd9w7Snxeeagk46YbMgZ8ESHx3sw==
@@ -569,7 +569,7 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
-"@types/styled-components@^5.0.1":
+"@types/styled-components@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.0.1.tgz#44d210b0a0218a70df998d1a8e1f69c82d9cc68b"
   integrity sha512-1yRYO1dAE2MGEuYKF1yQFeMdoyerIQn6ZDnFFkxZamcs3rn8RQVn98edPsTROAxbTz81tqnVN4BJ3Qs1cm/tKg==
@@ -3009,7 +3009,7 @@ jest-worker@^25.2.1:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-jest@^25.2.4:
+jest@25.2.4:
   version "25.2.4"
   resolved "https://registry.yarnpkg.com/jest/-/jest-25.2.4.tgz#d10941948a2b57eb7accc2e7ae78af4a0e11b40a"
   integrity sha512-Lu4LXxf4+durzN/IFilcAoQSisOwgHIXgl9vffopePpSSwFqfj1Pj4y+k3nL8oTbnvjxgDIsEcepy6he4bWqnQ==
@@ -4710,7 +4710,7 @@ stack-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.2.tgz#33eba3897788558bebfc2db059dc158ec36cebb8"
   integrity sha512-MTX+MeG5U994cazkjd/9KNAapsHnibjMLnfXodlkXw76JEea0UiNzrqidzo1emMwk7w5Qhc9jd4Bn9TBb1MFwA==
 
-standard-version@^7.1.0:
+standard-version@7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-7.1.0.tgz#021dd79eac749548677c876d5a94791df50f1f36"
   integrity sha512-bHY2E/1tYGeVl+0XSXFivb+54h2fA4pWJocXAd6FGbtSFUvGsnfmMbIXYDxrYErpq7oEqoKreV8xTAp78WoATA==
@@ -4869,7 +4869,7 @@ style-search@^0.1.0:
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
   integrity sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=
 
-styled-components@^5.0.1:
+styled-components@5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-5.0.1.tgz#57782a6471031abefb2db5820a1876ae853bc619"
   integrity sha512-E0xKTRIjTs4DyvC1MHu/EcCXIj6+ENCP8hP01koyoADF++WdBUOrSGwU1scJRw7/YaYOhDvvoad6VlMG+0j53A==
@@ -4885,7 +4885,7 @@ styled-components@^5.0.1:
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
 
-stylelint-config-prettier@^8.0.1:
+stylelint-config-prettier@8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-8.0.1.tgz#ec7cdd7faabaff52ebfa56c28fed3d995ebb8cab"
   integrity sha512-RcjNW7MUaNVqONhJH4+rtlAE3ow/9SsAM0YWV0Lgu3dbTKdWTa/pQXRdFWgoHWpzUKn+9oBKR5x8JdH+20wmgw==
@@ -4895,19 +4895,19 @@ stylelint-config-recommended@^3.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-3.0.0.tgz#e0e547434016c5539fe2650afd58049a2fd1d657"
   integrity sha512-F6yTRuc06xr1h5Qw/ykb2LuFynJ2IxkKfCMf+1xqPffkxh0S09Zc902XCffcsw/XMFq/OzQ1w54fLIDtmRNHnQ==
 
-stylelint-config-standard@^20.0.0:
+stylelint-config-standard@20.0.0:
   version "20.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-20.0.0.tgz#06135090c9e064befee3d594289f50e295b5e20d"
   integrity sha512-IB2iFdzOTA/zS4jSVav6z+wGtin08qfj+YyExHB3LF9lnouQht//YyB0KZq9gGz5HNPkddHOzcY8HsUey6ZUlA==
   dependencies:
     stylelint-config-recommended "^3.0.0"
 
-stylelint-config-styled-components@^0.1.1:
+stylelint-config-styled-components@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/stylelint-config-styled-components/-/stylelint-config-styled-components-0.1.1.tgz#b408388d7c687833ab4be4c4e6522d97d2827ede"
   integrity sha512-z5Xz/9GmvxO6e/DLzBMwkB85zHxEEjN6K7Cj80Bi+o/9vR9eS3GX3E9VuMnX9WLFYulqbqLtTapGGY28JBiy9Q==
 
-stylelint-processor-styled-components@^1.10.0:
+stylelint-processor-styled-components@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/stylelint-processor-styled-components/-/stylelint-processor-styled-components-1.10.0.tgz#8082fc68779476aac411d3afffac0bc833d77a29"
   integrity sha512-g4HpN9rm0JD0LoHuIOcd/FIjTZCJ0ErQ+dC3VTxp+dSvnkV+MklKCCmCQEdz5K5WxF4vPuzfVgdbSDuPYGZhoA==
@@ -4917,7 +4917,7 @@ stylelint-processor-styled-components@^1.10.0:
     micromatch "^4.0.2"
     postcss "^7.0.26"
 
-stylelint@^13.2.1:
+stylelint@13.2.1:
   version "13.2.1"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-13.2.1.tgz#9101fcd70791856530049816ff53d980ecd561df"
   integrity sha512-461ZV4KpUe7pEHHgMOsH4kkjF7qsjkCIMJYOf7QQC4cvgPUJ0z4Nj+ah5fvKl1rzqBqc5EZa6P0nna4CGoJX+A==
