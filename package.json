@@ -30,10 +30,10 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.3",
-    "@types/styled-components": "^5.0.1",
+    "@types/styled-components": "^5.1.1",
     "jest": "^25.5.4",
     "standard-version": "^8.0.0",
-    "styled-components": "^5.0.1",
+    "styled-components": "^5.1.1",
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
