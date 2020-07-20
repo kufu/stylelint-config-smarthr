@@ -29,7 +29,7 @@
   "author": "SmartHR",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^26.0.4",
+    "@types/jest": "^26.0.5",
     "@types/styled-components": "^5.1.1",
     "jest": "^26.1.0",
     "standard-version": "^8.0.0",
