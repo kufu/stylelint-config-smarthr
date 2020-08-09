@@ -30,7 +30,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.8",
-    "@types/styled-components": "^5.1.1",
+    "@types/styled-components": "^5.1.2",
     "jest": "^26.2.2",
     "standard-version": "^8.0.2",
     "styled-components": "^5.1.1",
