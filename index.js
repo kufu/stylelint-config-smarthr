@@ -6,15 +6,15 @@ module.exports = {
   ],
   syntax: 'scss',
   rules: {
-    'value-keyword-case': ['lower', {
-      ignoreKeywords: 'dummyValue'
-    }],
+    'value-keyword-case': null,
     'property-case': 'lower',
     'unit-case': 'lower',
+    'function-name-case': null,
     'declaration-colon-space-before': 'never',
     'declaration-colon-space-after': 'always-single-line',
     'declaration-block-trailing-semicolon': 'always',
     'declaration-block-semicolon-newline-after': 'always',
+    'declaration-empty-line-before': null,
     'block-closing-brace-empty-line-before': 'never',
     'block-closing-brace-newline-after': 'always',
     'block-opening-brace-space-before': 'always',
