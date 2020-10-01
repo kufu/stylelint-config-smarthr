@@ -44,11 +44,6 @@ Object {
       "text": "Unexpected whitespace before \\":\\" (declaration-colon-space-before)",
     },
     Object {
-      "rule": "declaration-empty-line-before",
-      "severity": "error",
-      "text": "Expected empty line before declaration (declaration-empty-line-before)",
-    },
-    Object {
       "rule": "font-family-name-quotes",
       "severity": "error",
       "text": "Unexpected quotes around \\"Arial\\" (font-family-name-quotes)",
