@@ -4,11 +4,6 @@ exports[`fixtures should match the snapshot 1`] = `
 Object {
   "index.tsx": Array [
     Object {
-      "rule": "block-closing-brace-empty-line-before",
-      "severity": "error",
-      "text": "Unexpected empty line before closing backtick (block-closing-brace-empty-line-before)",
-    },
-    Object {
       "rule": "block-no-empty",
       "severity": "error",
       "text": "Unexpected empty block (block-no-empty)",
