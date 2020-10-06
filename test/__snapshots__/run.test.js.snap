@@ -84,11 +84,6 @@ Object {
       "text": "Expected quotes around \\"blank\\" (selector-attribute-quotes)",
     },
     Object {
-      "rule": "selector-combinator-space-after",
-      "severity": "error",
-      "text": "Expected single space after \\">\\" (selector-combinator-space-after)",
-    },
-    Object {
       "rule": "selector-pseudo-class-parentheses-space-inside",
       "severity": "error",
       "text": "Unexpected whitespace after \\"(\\" (selector-pseudo-class-parentheses-space-inside)",
