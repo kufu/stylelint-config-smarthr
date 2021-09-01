@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/kufu/stylelint-config-smarthr/compare/v1.0.0...v1.0.1) (2021-09-01)
+
+
+### Bug Fixes
+
+* CircleCI の Node.js のバージョンを更新 ([#89](https://github.com/kufu/stylelint-config-smarthr/issues/89)) ([57a8c94](https://github.com/kufu/stylelint-config-smarthr/commit/57a8c9449cd8231e8dd988e2fb21d236c73dafc6))
+
 ## [1.0.0](https://github.com/kufu/stylelint-config-smarthr/compare/v0.1.2...v1.0.0) (2020-10-06)
 
 
