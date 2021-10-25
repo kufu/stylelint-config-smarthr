@@ -4,7 +4,7 @@ module.exports = {
     'stylelint-config-styled-components',
     'stylelint-config-prettier'
   ],
-  syntax: 'scss',
+  customSyntax: 'postcss-jsx',
   rules: {
     'value-keyword-case': null,
     'property-case': 'lower',
