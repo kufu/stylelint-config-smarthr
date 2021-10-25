@@ -1,10 +1,10 @@
 module.exports = {
   extends: [
     'stylelint-config-standard',
+    'stylelint-config-standard-scss',
     'stylelint-config-styled-components',
     'stylelint-config-prettier'
   ],
-  syntax: 'scss',
   rules: {
     'value-keyword-case': null,
     'property-case': 'lower',
