@@ -4,9 +4,19 @@ exports[`fixtures should match the snapshot 1`] = `
 Object {
   "index.tsx": Array [
     Object {
+      "rule": "alpha-value-notation",
+      "severity": "error",
+      "text": "Expected \\"50%\\" to be \\"0.5\\" (alpha-value-notation)",
+    },
+    Object {
       "rule": "block-no-empty",
       "severity": "error",
       "text": "Unexpected empty block (block-no-empty)",
+    },
+    Object {
+      "rule": "color-function-notation",
+      "severity": "error",
+      "text": "Expected legacy color-function notation (color-function-notation)",
     },
     Object {
       "rule": "color-hex-case",
@@ -24,9 +34,9 @@ Object {
       "text": "Expected empty line before comment (comment-empty-line-before)",
     },
     Object {
-      "rule": "declaration-block-semicolon-newline-after",
+      "rule": "declaration-block-no-redundant-longhand-properties",
       "severity": "error",
-      "text": "Expected newline after \\";\\" (declaration-block-semicolon-newline-after)",
+      "text": "Expected shorthand property \\"flex\\" (declaration-block-no-redundant-longhand-properties)",
     },
     Object {
       "rule": "declaration-block-trailing-semicolon",
@@ -59,6 +69,11 @@ Object {
       "text": "Expected a leading zero (number-leading-zero)",
     },
     Object {
+      "rule": "number-max-precision",
+      "severity": "error",
+      "text": "Expected \\"0.55555\\" to be \\"0.5555\\" (number-max-precision)",
+    },
+    Object {
       "rule": "property-case",
       "severity": "error",
       "text": "Expected \\"Width\\" to be \\"width\\" (property-case)",
@@ -84,14 +99,14 @@ Object {
       "text": "Expected quotes around \\"blank\\" (selector-attribute-quotes)",
     },
     Object {
-      "rule": "selector-pseudo-class-parentheses-space-inside",
-      "severity": "error",
-      "text": "Unexpected whitespace after \\"(\\" (selector-pseudo-class-parentheses-space-inside)",
-    },
-    Object {
       "rule": "selector-pseudo-element-colon-notation",
       "severity": "error",
       "text": "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
+    },
+    Object {
+      "rule": "shorthand-property-no-redundant-values",
+      "severity": "error",
+      "text": "Unexpected longhand value '0 0 0 0' instead of '0' (shorthand-property-no-redundant-values)",
     },
     Object {
       "rule": "string-quotes",
