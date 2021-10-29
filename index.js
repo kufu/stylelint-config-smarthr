@@ -31,5 +31,9 @@ module.exports = {
     'color-hex-length': 'short',
     'color-hex-case': 'lower',
     'no-descending-specificity': null,
+    'rule-empty-line-before': null,
+    'alpha-value-notation': 'number',
+    'color-function-notation': 'legacy',
+    'selector-class-pattern': null
   }
 }
