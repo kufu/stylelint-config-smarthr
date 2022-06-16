@@ -1,13 +1,12 @@
 name: weekly release
 
 on:
-  issues:
-    types:
-      - labeled
+  schedule:
+    - cron: "0 10 * * 1"
 
 jobs:
   publish_release:
-    if: github.event.issue.state == 'open' && contains(github.event.issue.labels.*.name, 'release candidate') && github.event.label.name == 'approve release'
+    # if: github.event.issue.state == 'open' && contains(github.event.issue.labels.*.name, 'release candidate') && github.event.label.name == 'approve release'
     runs-on: ubuntu-latest
     env:
       CHANGELOG_PATH: /tmp/CHANGELOG.md
