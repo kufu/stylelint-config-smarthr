@@ -30,14 +30,10 @@ jobs:
   publish_release:
     # if: github.event.issue.state == 'open' && contains(github.event.issue.labels.*.name, 'release candidate') && github.event.label.name == 'approve release'
     runs-on: ubuntu-latest
-    env:
-      CHANGELOG_PATH: /tmp/CHANGELOG.md
-      IS_PRERELEASE: ${{ contains(github.event.issue.labels.*.name, 'prerelease') }}
+    # env:
+    #   CHANGELOG_PATH: /tmp/CHANGELOG.md
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: release-candidate
-          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           node-version: 14
