@@ -44,15 +44,7 @@ jobs:
           git config user.name "github-actions[bot]"
       - run: yarn install --frozen-lockfile
       - run: yarn release
-        if: ${{ env.IS_PRERELEASE == 'false' }}
-      - run: yarn release --prerelease
-        if: ${{ env.IS_PRERELEASE == 'true' }}
       - run: npm publish
-        if: ${{ env.IS_PRERELEASE == 'false' }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: npm publish --tag prerelease
-        if: ${{ env.IS_PRERELEASE == 'true' }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: echo NEW_TAG=$(git describe) >> $GITHUB_ENV
