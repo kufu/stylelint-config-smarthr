@@ -29,14 +29,14 @@
   "author": "SmartHR",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^27.5.2",
+    "@types/jest": "^28.1.2",
     "@types/styled-components": "^5.1.25",
-    "jest": "^28.1.0",
+    "jest": "^28.1.1",
     "postcss-jsx": "^0.36.4",
     "postcss-syntax": "^0.36.2",
     "standard-version": "^9.3.2",
     "styled-components": "^5.3.5",
-    "stylelint": "^14.8.2",
+    "stylelint": "^14.9.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^25.0.0",
     "stylelint-config-styled-components": "^0.1.1"
