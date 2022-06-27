@@ -6,14 +6,25 @@ on:
   #   - cron: "0 10 * * 1"
 
 jobs:
-  test:
+  release:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - name: check diff
+        run: |
+          TAG=$(git tag --points-at)
+          if [ -n "$TAG" ]; then
+            exit 1
+          fi
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          registry-url: "https://registry.npmjs.org"
+      - name: git config
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -24,23 +35,8 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - name: run
-        run: |
-          yarn install --frozen-lockfile
-          yarn test
-  publish_release:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: "https://registry.npmjs.org"
-      - name: git config
-        run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
       - run: yarn install --frozen-lockfile
+      - run: yarn test
       - run: yarn release
       - run: npm publish
         env:
