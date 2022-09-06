@@ -106,7 +106,7 @@ Object {
     Object {
       "rule": "shorthand-property-no-redundant-values",
       "severity": "error",
-      "text": "Unexpected longhand value '0 0 0 0' instead of '0' (shorthand-property-no-redundant-values)",
+      "text": "Unexpected longhand value \\"0 0 0 0\\" instead of \\"0\\" (shorthand-property-no-redundant-values)",
     },
     Object {
       "rule": "string-quotes",
