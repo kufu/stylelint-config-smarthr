@@ -106,7 +106,7 @@ exports[`fixtures should match the snapshot 1`] = `
     {
       "rule": "shorthand-property-no-redundant-values",
       "severity": "error",
-      "text": "Unexpected longhand value "0 0 0 0" instead of "0" (shorthand-property-no-redundant-values)",
+      "text": "Expected "0 0 0 0" to be "0" (shorthand-property-no-redundant-values)",
     },
     {
       "rule": "string-quotes",
