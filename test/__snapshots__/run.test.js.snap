@@ -19,11 +19,6 @@ exports[`fixtures should match the snapshot 1`] = `
       "text": "Expected legacy color-function notation (color-function-notation)",
     },
     {
-      "rule": "color-hex-case",
-      "severity": "error",
-      "text": "Expected "#FFF" to be "#fff" (color-hex-case)",
-    },
-    {
       "rule": "color-hex-length",
       "severity": "error",
       "text": "Expected "#ffffff" to be "#fff" (color-hex-length)",
@@ -39,21 +34,6 @@ exports[`fixtures should match the snapshot 1`] = `
       "text": "Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)",
     },
     {
-      "rule": "declaration-block-trailing-semicolon",
-      "severity": "error",
-      "text": "Expected a trailing semicolon (declaration-block-trailing-semicolon)",
-    },
-    {
-      "rule": "declaration-colon-space-after",
-      "severity": "error",
-      "text": "Expected single space after ":" with a single-line declaration (declaration-colon-space-after)",
-    },
-    {
-      "rule": "declaration-colon-space-before",
-      "severity": "error",
-      "text": "Unexpected whitespace before ":" (declaration-colon-space-before)",
-    },
-    {
       "rule": "font-family-name-quotes",
       "severity": "error",
       "text": "Unexpected quotes around "Arial" (font-family-name-quotes)",
@@ -64,34 +44,9 @@ exports[`fixtures should match the snapshot 1`] = `
       "text": "Unexpected unit (length-zero-no-unit)",
     },
     {
-      "rule": "number-leading-zero",
-      "severity": "error",
-      "text": "Expected a leading zero (number-leading-zero)",
-    },
-    {
       "rule": "number-max-precision",
       "severity": "error",
       "text": "Expected "0.55555" to be "0.5555" (number-max-precision)",
-    },
-    {
-      "rule": "property-case",
-      "severity": "error",
-      "text": "Expected "Width" to be "width" (property-case)",
-    },
-    {
-      "rule": "selector-attribute-brackets-space-inside",
-      "severity": "error",
-      "text": "Unexpected whitespace after "[" (selector-attribute-brackets-space-inside)",
-    },
-    {
-      "rule": "selector-attribute-brackets-space-inside",
-      "severity": "error",
-      "text": "Unexpected whitespace before "]" (selector-attribute-brackets-space-inside)",
-    },
-    {
-      "rule": "selector-attribute-operator-space-after",
-      "severity": "error",
-      "text": "Unexpected whitespace after "=" (selector-attribute-operator-space-after)",
     },
     {
       "rule": "selector-attribute-quotes",
@@ -107,16 +62,6 @@ exports[`fixtures should match the snapshot 1`] = `
       "rule": "shorthand-property-no-redundant-values",
       "severity": "error",
       "text": "Expected "0 0 0 0" to be "0" (shorthand-property-no-redundant-values)",
-    },
-    {
-      "rule": "string-quotes",
-      "severity": "error",
-      "text": "Expected single quotes (string-quotes)",
-    },
-    {
-      "rule": "unit-case",
-      "severity": "error",
-      "text": "Expected "PX" to be "px" (unit-case)",
     },
   ],
 }
