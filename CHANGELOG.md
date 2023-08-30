@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/kufu/stylelint-config-smarthr/compare/v1.1.0...v2.0.0) (2023-08-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* stylelint v14 を peerDependencies から除外、v15 のルールに移行 (#205)
+
+### Features
+
+* stylelint v14 を peerDependencies から除外、v15 のルールに移行 ([#205](https://github.com/kufu/stylelint-config-smarthr/issues/205)) ([5e87717](https://github.com/kufu/stylelint-config-smarthr/commit/5e87717e3c29bb415e2320604e55d2290755f50e))
+
 ## [1.1.0](https://github.com/kufu/stylelint-config-smarthr/compare/v1.0.2...v1.1.0) (2022-08-15)
 
 
