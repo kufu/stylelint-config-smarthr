@@ -23,8 +23,7 @@
   "scripts": {
     "release:dryrun": "standard-version --dry-run",
     "release": "standard-version",
-    "test": "yarn node --experimental-vm-modules $(yarn bin jest)",
-    "test:update-snapshot": "yarn node --experimental-vm-modules $(yarn bin jest --updateSnapshot)"
+    "test": "yarn vitest"
   },
   "author": "SmartHR",
   "license": "MIT",
@@ -37,7 +36,8 @@
     "styled-components": "^5.3.11",
     "stylelint": "^16.0.2",
     "stylelint-config-standard": "^35.0.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
   },
   "peerDependencies": {
     "postcss-styled-syntax": "^0.4.0 || ^0.5.0",
