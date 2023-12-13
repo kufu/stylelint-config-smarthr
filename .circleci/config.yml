@@ -20,12 +20,12 @@ commands:
 jobs:
   node-v18:
     docker:
-      - image: circleci/node:18
+      - image: cimg/node:18.13
     steps:
       - run-test
   node-v20:
     docker:
-      - image: circleci/node:20
+      - image: cimg/node:20.0
     steps:
       - run-test
 workflows:
