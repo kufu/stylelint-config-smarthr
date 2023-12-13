@@ -20,12 +20,12 @@ commands:
 jobs:
   node-v18:
     docker:
-      - image: cimg/node:18.13
+      - image: cimg/node:18.12
     steps:
       - run-test
   node-v20:
     docker:
-      - image: cimg/node:20.8
+      - image: cimg/node:20.0
     steps:
       - run-test
 workflows:
