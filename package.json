@@ -23,8 +23,8 @@
   "scripts": {
     "release:dryrun": "standard-version --dry-run",
     "release": "standard-version",
-    "test": "jest",
-    "test:update-snapshot": "jest --updateSnapshot"
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest)",
+    "test:update-snapshot": "yarn node --experimental-vm-modules $(yarn bin jest --updateSnapshot)"
   },
   "author": "SmartHR",
   "license": "MIT",
