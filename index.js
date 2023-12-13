@@ -14,6 +14,8 @@ module.exports = {
     'rule-empty-line-before': null,
     'alpha-value-notation': 'number',
     'color-function-notation': 'legacy',
-    'selector-class-pattern': null
+    'selector-class-pattern': null,
+    "value-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
   }
 }
