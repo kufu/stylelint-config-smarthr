@@ -15,8 +15,8 @@ module.exports = {
     'alpha-value-notation': 'number',
     'color-function-notation': 'legacy',
     'selector-class-pattern': null,
-    "value-no-vendor-prefix": true,
-    "property-no-vendor-prefix": true,
-    "no-empty-source": null
+    'value-no-vendor-prefix': true,
+    'property-no-vendor-prefix': true,
+    'no-empty-source': null
   }
 }
