@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    'stylelint-config-standard',
-    'stylelint-config-styled-components',
+    'stylelint-config-standard'
   ],
   customSyntax: 'postcss-styled-syntax',
   rules: {
@@ -15,6 +14,9 @@ module.exports = {
     'rule-empty-line-before': null,
     'alpha-value-notation': 'number',
     'color-function-notation': 'legacy',
-    'selector-class-pattern': null
+    'selector-class-pattern': null,
+    'value-no-vendor-prefix': true,
+    'property-no-vendor-prefix': true,
+    'no-empty-source': null
   }
 }
