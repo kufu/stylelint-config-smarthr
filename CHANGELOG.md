@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/kufu/stylelint-config-smarthr/compare/v2.0.1...v3.0.0) (2023-12-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* stylelint v16 対応 (#249)
+
+### Features
+
+* stylelint v16 対応 ([#249](https://github.com/kufu/stylelint-config-smarthr/issues/249)) ([1e48718](https://github.com/kufu/stylelint-config-smarthr/commit/1e48718c681c3047dcfee1594286d6ad7acec606))
+
 ### [2.0.1](https://github.com/kufu/stylelint-config-smarthr/compare/v2.0.0...v2.0.1) (2023-11-29)
 
 ## [2.0.0](https://github.com/kufu/stylelint-config-smarthr/compare/v1.1.0...v2.0.0) (2023-08-30)
