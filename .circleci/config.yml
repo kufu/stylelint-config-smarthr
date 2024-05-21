@@ -28,6 +28,11 @@ jobs:
       - image: cimg/node:20.12
     steps:
       - run-test
+  node-v22:
+    docker:
+      - image: cimg/node:22.2
+    steps:
+      - run-test
 workflows:
   multiple_builds:
     jobs:
