@@ -20,7 +20,7 @@ commands:
 jobs:
   node-v18:
     docker:
-      - image: cimg/node:22.4
+      - image: cimg/node:18.20
     steps:
       - run-test
   node-v20:
