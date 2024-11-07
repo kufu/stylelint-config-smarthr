@@ -17,6 +17,15 @@ module.exports = {
     'selector-class-pattern': null,
     'value-no-vendor-prefix': true,
     'property-no-vendor-prefix': true,
-    'no-empty-source': null
+    'no-empty-source': null,
+    'declaration-property-value-disallowed-list': [
+      {
+        'overflow-wrap': ['anywhere'],
+        'word-break': ['break-all'],
+      },
+      {
+        'message': '`overflow-wrap: anywhere` `word-break: break-all` は英単語などが不自然に改行される可能性があるため非推奨です。本当に設定が必要か、もしくは他の指定で対応出来ないか検討してください。'
+      }
+    ]
   }
 }
