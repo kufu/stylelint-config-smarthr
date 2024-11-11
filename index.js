@@ -23,12 +23,13 @@ module.exports = {
         'word-break': ['break-all', 'break-word'],
       },
       {
-        'message': `"word-break: break-all;" "word-break: break-word" 以下の理由で非推奨です
- - "break-all" は英単語などが不自然に改行される可能性があるため非推奨です。
- - "break-word" は仕様として非推奨になっています
+        'message': `"word-break: break-all;" "word-break: break-word" は非推奨なstyleです
+ - "break-all" は英単語などが不自然に改行され、非常に読みづらくなるため利用しないでください
+ - "break-word" は仕様として非推奨です
+   - https://developer.mozilla.org/ja/docs/Web/CSS/word-break#break-word
  - いずれの場合も以下で対応可能です
-   - "overflow-wrap: anywhere;" を利用することでなるべく単語を改行せず、かつどうしても横幅に収まらない場合のみ単語内で改行されるようになります。
-   - "overflow-wrap: anywhere;" だけではうまく改行指定出来ない場合、"word-break: normal;" も同時に指定すると改善する場合があります。`
+   - "overflow-wrap: anywhere;" を利用することでなるべく単語を改行せず、かつどうしても横幅に収まらない場合のみ単語内で改行されるようになります
+   - "overflow-wrap: anywhere;" だけではうまく改行指定出来ない場合、"word-break: normal;" も同時に指定すると改善する場合があります`
       }
     ]
   }
