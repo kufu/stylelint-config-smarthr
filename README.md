@@ -6,6 +6,13 @@
 A sharable stylelint config for SmartHR.
 This is intended to use for a project with styled-components.
 
+## Information
+
+This repository has been archived.  
+The project has been moved to [kufu/tamatebako/packages/stylelint-config-smarthr](https://github.com/kufu/tamatebako/tree/master/packages/stylelint-config-smarthr) and is being actively maintained there.
+
+---
+
 ## Install
 
 ```sh
